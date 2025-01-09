@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orbital - Centro de Orientação Espiritual</title>
+    <style>
+        /* Estilos Gerais */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(90deg, #4e79a7, #f0c674);
+            color: white;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 1.8rem;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 1rem;
+        }
+
+        nav ul li {
+            padding: 0.5rem;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 4rem 2rem;
+            background: linear-gradient(180deg, #f0c674, #f8f9fa);
+        }
+
+        .hero h2 {
+            font-size: 2.5rem;
+            color: #4e79a7;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-top: 1rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+
+        .section {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .section h3 {
+            color: #4e79a7;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #4e79a7;
+            color: white;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Orbital</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#services">Consultas</a></li>
+                <li><a href="#events">Encontros</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Bem-vindo ao Orbital</h2>
+        <p>Seu espaço de orientação espiritual, autoconhecimento e conexão com o universo.</p>
+    </section>
+
+    <div class="container">
+        <section class="section" id="about">
+            <h3>Sobre o Orbital</h3>
+            <p>O Orbital é um centro de orientação espiritual que oferece consultas, encontros semanais e cursos voltados para o autoconhecimento e a espiritualidade. Nosso objetivo é proporcionar um espaço acolhedor e transformador.</p>
+        </section>
+
+        <section class="section" id="services">
+            <h3>Consultas e Orientações</h3>
+            <p>Oferecemos consultas de tarô e baralho cigano para ajudar você a compreender os caminhos da vida e tomar decisões alinhadas com seu propósito.</p>
+        </section>
+
+        <section class="section" id="events">
+            <h3>Encontros Semanais</h3>
+            <p>Participe de nossos encontros semanais para meditações, reflexões e aprendizado espiritual. Inscreva-se para fazer parte dessa jornada.</p>
+        </section>
+
+        <section class="section" id="contact">
+            <h3>Contato</h3>
+            <p>Envie suas dúvidas ou agende uma consulta. Estamos à disposição para ajudar você em sua jornada espiritual.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Orbital - Centro de Orientação Espiritual. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        // Adicionando uma mensagem interativa para teste
+        document.querySelectorAll('nav ul li a').forEach(link => {
+            link.addEventListener('click', () => {
+                alert(`Você clicou no link: ${link.textContent}`);
+            });
+        });
+    </script>
+</body>
+</html>
